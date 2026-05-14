@@ -50,24 +50,24 @@ For new users with no interaction history, the system recommends popular books a
 # How to Run the Project
 
 # Option 1 — Run in Google Colab
-1.Open recommendation.ipynb in Google Colab.
-2.Upload the following files into the Colab session:
-3.chapters.csv
+1. Open recommendation.ipynb in Google Colab.
+2. Upload the following files into the Colab session:
+3. chapters.csv
   interactions.csv
-4.Run all notebook cells from top to bottom.
-5.Final recommendations will be generated and saved as:
+4. Run all notebook cells from top to bottom.
+5. Final recommendations will be generated and saved as:
 user_recommendations.csv
 
 
 # Option 2 — Run in VS Code or Local System
 Install Python on your system.
-Install the required libraries using:
-pip install pandas numpy scikit-learn matplotlib seaborn
-Open the project folder in VS Code.
-Make sure these files are present in the same folder:
+1. Install the required libraries using:
+2. pip install pandas numpy scikit-learn matplotlib seaborn
+3. Open the project folder in VS Code.
+4. Make sure these files are present in the same folder:
 recommendation.ipynb
 chapters.csv
 interactions.csv
-Run the notebook cells one by one using Jupyter Notebook support in VS Code.
-The final output file will be saved as:
+5. Run the notebook cells one by one using Jupyter Notebook support in VS Code.
+6. The final output file will be saved as:
 user_recommendations.csv
