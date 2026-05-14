@@ -27,11 +27,11 @@ final recommendations output
 # Libraries Used
 # The following Python libraries were used in this project:
 
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
+1. pandas
+2. numpy
+3. scikit-learn
+4. matplotlib
+5. seaborn
 
 
 
@@ -50,12 +50,12 @@ For new users with no interaction history, the system recommends popular books a
 # How to Run the Project
 
 # Option 1 — Run in Google Colab
-Open recommendation.ipynb in Google Colab.
-Upload the following files into the Colab session:
-chapters.csv
-interactions.csv
-Run all notebook cells from top to bottom.
-Final recommendations will be generated and saved as:
+1.Open recommendation.ipynb in Google Colab.
+2.Upload the following files into the Colab session:
+3.chapters.csv
+  interactions.csv
+4.Run all notebook cells from top to bottom.
+5.Final recommendations will be generated and saved as:
 user_recommendations.csv
 
 
